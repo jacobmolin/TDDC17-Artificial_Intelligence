@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/jacobmolin/Dropbox/LiU/Åk4/HT1/TDDC17/Labs/lab2_workspace/.metadata/.plugins/org.eclipse.jdt.core
+2277434545.index
+3536394000.index
+2574934564.index
