@@ -5,3 +5,5 @@
 #### 2. Search algorithms for a vacuum cleaner agent, implemented in Java.
 
 #### 3. Bayesian networks using a Java applet.
+
+#### 4. Planning
