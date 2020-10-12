@@ -7,3 +7,5 @@
 #### 3. Bayesian networks using a Java applet.
 
 #### 4. Planning
+
+#### 5. Rocket hovering with Qlearning
