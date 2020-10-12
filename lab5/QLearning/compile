@@ -1,0 +1,2 @@
+javac -classpath lib/rllab.jar -d ./bin -sourcepath src src/TutorialController.java
+javac -classpath lib/rllab.jar -d ./bin -sourcepath src src/StateAndReward.java src/QLearningController.java
