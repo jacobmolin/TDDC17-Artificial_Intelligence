@@ -1,0 +1,1421 @@
+{"act": "begin_group", "ts": 0}
+{"act": "open_list_sorting", "key_list": ["h_SINGLE", "h_(", "h_ff", "h_INSERTION_ORDER", "h_)"]}
+{"ts":0, "act": "state_update", "state_id": 0, "state": {"var0": "5(Atom at(t0, l5))", "var1": "93(Atom fuel(t0, level99))", "var2": "4(Atom at(p6, l4))", "var3": "5(Atom at(p5, l5))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "g": -1, "real_g": -1}
+{"ts": 0, "act": "evaluated_states", "state_id": 0, "preferred": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 0}
+{"ts":0, "act": "state_update", "state_id": 0, "h_ff": 18}
+{"ts": 0, "act": "evaluated_heuristics", "count": 1}
+{"act": "preferred_heuristics", "key_list": []}
+{"act": "main_heuristic", "target": "h_ff"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 1}
+{"ts":1, "act": "state_update", "state_id": 0, "g": 0, "real_g": 0}
+{"ts": 1, "act": "expanded_states", "state_id": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 1}
+{"ts":1, "act": "state_update", "state_id": 1, "state": {"var0": "0(Atom at(t0, l0))", "var1": "91(Atom fuel(t0, level93))", "var2": "4(Atom at(p6, l4))", "var3": "5(Atom at(p5, l5))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [0, "drive t0 l5 l0 level93 level6 level99", 1]}
+{"ts": 1, "act": "generated_states", "state_id": 0, "op": "drive t0 l5 l0 level93 level6 level99"}
+{"ts":1, "act": "state_update", "state_id": 1, "g": -1, "real_g": -1}
+{"ts": 1, "act": "evaluated_states", "state_id": 1, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 1}
+{"ts":1, "act": "state_update", "state_id": 1, "h_ff": 19}
+{"ts": 1, "act": "evaluated_heuristics", "count": 1}
+{"ts":1, "act": "state_update", "state_id": 2, "state": {"var0": "2(Atom at(t0, l2))", "var1": "85(Atom fuel(t0, level86))", "var2": "4(Atom at(p6, l4))", "var3": "5(Atom at(p5, l5))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [0, "drive t0 l5 l2 level86 level13 level99", 1]}
+{"ts": 1, "act": "generated_states", "state_id": 0, "op": "drive t0 l5 l2 level86 level13 level99"}
+{"ts":1, "act": "state_update", "state_id": 2, "g": -1, "real_g": -1}
+{"ts": 1, "act": "evaluated_states", "state_id": 2, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 1}
+{"ts":1, "act": "state_update", "state_id": 2, "h_ff": 20}
+{"ts": 1, "act": "evaluated_heuristics", "count": 1}
+{"ts":1, "act": "state_update", "state_id": 3, "state": {"var0": "4(Atom at(t0, l4))", "var1": "86(Atom fuel(t0, level87))", "var2": "4(Atom at(p6, l4))", "var3": "5(Atom at(p5, l5))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [0, "drive t0 l5 l4 level87 level12 level99", 1]}
+{"ts": 1, "act": "generated_states", "state_id": 0, "op": "drive t0 l5 l4 level87 level12 level99"}
+{"ts":1, "act": "state_update", "state_id": 3, "g": -1, "real_g": -1}
+{"ts": 1, "act": "evaluated_states", "state_id": 3, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 1}
+{"ts":1, "act": "state_update", "state_id": 3, "h_ff": 18}
+{"ts": 1, "act": "evaluated_heuristics", "count": 1}
+{"ts":1, "act": "state_update", "state_id": 4, "state": {"var0": "5(Atom at(t0, l5))", "var1": "93(Atom fuel(t0, level99))", "var2": "4(Atom at(p6, l4))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [0, "load p5 t0 l5", 1]}
+{"ts": 1, "act": "generated_states", "state_id": 0, "op": "load p5 t0 l5"}
+{"ts":1, "act": "state_update", "state_id": 4, "g": -1, "real_g": -1}
+{"ts": 1, "act": "evaluated_states", "state_id": 4, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 1}
+{"ts":1, "act": "state_update", "state_id": 4, "h_ff": 17}
+{"ts": 1, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 2}
+{"ts":2, "act": "state_update", "state_id": 4, "g": 1, "real_g": 1}
+{"ts": 2, "act": "expanded_states", "state_id": 4}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 2}
+{"ts":2, "act": "state_update", "state_id": 5, "state": {"var0": "0(Atom at(t0, l0))", "var1": "91(Atom fuel(t0, level93))", "var2": "4(Atom at(p6, l4))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [4, "drive t0 l5 l0 level93 level6 level99", 1]}
+{"ts": 2, "act": "generated_states", "state_id": 4, "op": "drive t0 l5 l0 level93 level6 level99"}
+{"ts":2, "act": "state_update", "state_id": 5, "g": -1, "real_g": -1}
+{"ts": 2, "act": "evaluated_states", "state_id": 5, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 2}
+{"ts":2, "act": "state_update", "state_id": 5, "h_ff": 18}
+{"ts": 2, "act": "evaluated_heuristics", "count": 1}
+{"ts":2, "act": "state_update", "state_id": 6, "state": {"var0": "2(Atom at(t0, l2))", "var1": "85(Atom fuel(t0, level86))", "var2": "4(Atom at(p6, l4))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [4, "drive t0 l5 l2 level86 level13 level99", 1]}
+{"ts": 2, "act": "generated_states", "state_id": 4, "op": "drive t0 l5 l2 level86 level13 level99"}
+{"ts":2, "act": "state_update", "state_id": 6, "g": -1, "real_g": -1}
+{"ts": 2, "act": "evaluated_states", "state_id": 6, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 2}
+{"ts":2, "act": "state_update", "state_id": 6, "h_ff": 19}
+{"ts": 2, "act": "evaluated_heuristics", "count": 1}
+{"ts":2, "act": "state_update", "state_id": 7, "state": {"var0": "4(Atom at(t0, l4))", "var1": "86(Atom fuel(t0, level87))", "var2": "4(Atom at(p6, l4))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [4, "drive t0 l5 l4 level87 level12 level99", 1]}
+{"ts": 2, "act": "generated_states", "state_id": 4, "op": "drive t0 l5 l4 level87 level12 level99"}
+{"ts":2, "act": "state_update", "state_id": 7, "g": -1, "real_g": -1}
+{"ts": 2, "act": "evaluated_states", "state_id": 7, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 2}
+{"ts":2, "act": "state_update", "state_id": 7, "h_ff": 17}
+{"ts": 2, "act": "evaluated_heuristics", "count": 1}
+{"ts":2, "act": "state_update", "state_id": 0, "new_parent": [4, "unload p5 t0 l5", 1]}
+{"ts": 2, "act": "generated_states", "state_id": 4, "op": "unload p5 t0 l5"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 7, "g": 2, "real_g": 2}
+{"ts": 3, "act": "expanded_states", "state_id": 7}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 8, "state": {"var0": "1(Atom at(t0, l1))", "var1": "62(Atom fuel(t0, level65))", "var2": "4(Atom at(p6, l4))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [7, "drive t0 l4 l1 level65 level22 level87", 1]}
+{"ts": 3, "act": "generated_states", "state_id": 7, "op": "drive t0 l4 l1 level65 level22 level87"}
+{"ts":3, "act": "state_update", "state_id": 8, "g": -1, "real_g": -1}
+{"ts": 3, "act": "evaluated_states", "state_id": 8, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 8, "h_ff": 17}
+{"ts": 3, "act": "evaluated_heuristics", "count": 1}
+{"ts":3, "act": "state_update", "state_id": 9, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "4(Atom at(p6, l4))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [7, "drive t0 l4 l3 level79 level8 level87", 1]}
+{"ts": 3, "act": "generated_states", "state_id": 7, "op": "drive t0 l4 l3 level79 level8 level87"}
+{"ts":3, "act": "state_update", "state_id": 9, "g": -1, "real_g": -1}
+{"ts": 3, "act": "evaluated_states", "state_id": 9, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 9, "h_ff": 17}
+{"ts": 3, "act": "evaluated_heuristics", "count": 1}
+{"ts":3, "act": "state_update", "state_id": 10, "state": {"var0": "5(Atom at(t0, l5))", "var1": "73(Atom fuel(t0, level75))", "var2": "4(Atom at(p6, l4))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [7, "drive t0 l4 l5 level75 level12 level87", 1]}
+{"ts": 3, "act": "generated_states", "state_id": 7, "op": "drive t0 l4 l5 level75 level12 level87"}
+{"ts":3, "act": "state_update", "state_id": 10, "g": -1, "real_g": -1}
+{"ts": 3, "act": "evaluated_states", "state_id": 10, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 10, "h_ff": 17}
+{"ts": 3, "act": "evaluated_heuristics", "count": 1}
+{"ts":3, "act": "state_update", "state_id": 11, "state": {"var0": "4(Atom at(t0, l4))", "var1": "86(Atom fuel(t0, level87))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [7, "load p6 t0 l4", 1]}
+{"ts": 3, "act": "generated_states", "state_id": 7, "op": "load p6 t0 l4"}
+{"ts":3, "act": "state_update", "state_id": 11, "g": -1, "real_g": -1}
+{"ts": 3, "act": "evaluated_states", "state_id": 11, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 11, "h_ff": 16}
+{"ts": 3, "act": "evaluated_heuristics", "count": 1}
+{"ts":3, "act": "state_update", "state_id": 12, "state": {"var0": "4(Atom at(t0, l4))", "var1": "86(Atom fuel(t0, level87))", "var2": "4(Atom at(p6, l4))", "var3": "4(Atom at(p5, l4))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [7, "unload p5 t0 l4", 1]}
+{"ts": 3, "act": "generated_states", "state_id": 7, "op": "unload p5 t0 l4"}
+{"ts":3, "act": "state_update", "state_id": 12, "g": -1, "real_g": -1}
+{"ts": 3, "act": "evaluated_states", "state_id": 12, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 12, "h_ff": 18}
+{"ts": 3, "act": "evaluated_heuristics", "count": 1}
+{"ts":3, "act": "state_update", "state_id": 13, "state": {"var0": "4(Atom at(t0, l4))", "var1": "86(Atom fuel(t0, level87))", "var2": "4(Atom at(p6, l4))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [7, "load p2 t0 l4", 1]}
+{"ts": 3, "act": "generated_states", "state_id": 7, "op": "load p2 t0 l4"}
+{"ts":3, "act": "state_update", "state_id": 13, "g": -1, "real_g": -1}
+{"ts": 3, "act": "evaluated_states", "state_id": 13, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 13, "h_ff": 16}
+{"ts": 3, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 11, "g": 3, "real_g": 3}
+{"ts": 4, "act": "expanded_states", "state_id": 11}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 14, "state": {"var0": "1(Atom at(t0, l1))", "var1": "62(Atom fuel(t0, level65))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [11, "drive t0 l4 l1 level65 level22 level87", 1]}
+{"ts": 4, "act": "generated_states", "state_id": 11, "op": "drive t0 l4 l1 level65 level22 level87"}
+{"ts":4, "act": "state_update", "state_id": 14, "g": -1, "real_g": -1}
+{"ts": 4, "act": "evaluated_states", "state_id": 14, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 14, "h_ff": 16}
+{"ts": 4, "act": "evaluated_heuristics", "count": 1}
+{"ts":4, "act": "state_update", "state_id": 15, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [11, "drive t0 l4 l3 level79 level8 level87", 1]}
+{"ts": 4, "act": "generated_states", "state_id": 11, "op": "drive t0 l4 l3 level79 level8 level87"}
+{"ts":4, "act": "state_update", "state_id": 15, "g": -1, "real_g": -1}
+{"ts": 4, "act": "evaluated_states", "state_id": 15, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 15, "h_ff": 16}
+{"ts": 4, "act": "evaluated_heuristics", "count": 1}
+{"ts":4, "act": "state_update", "state_id": 16, "state": {"var0": "5(Atom at(t0, l5))", "var1": "73(Atom fuel(t0, level75))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [11, "drive t0 l4 l5 level75 level12 level87", 1]}
+{"ts": 4, "act": "generated_states", "state_id": 11, "op": "drive t0 l4 l5 level75 level12 level87"}
+{"ts":4, "act": "state_update", "state_id": 16, "g": -1, "real_g": -1}
+{"ts": 4, "act": "evaluated_states", "state_id": 16, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 16, "h_ff": 16}
+{"ts": 4, "act": "evaluated_heuristics", "count": 1}
+{"ts":4, "act": "state_update", "state_id": 7, "new_parent": [11, "unload p6 t0 l4", 1]}
+{"ts": 4, "act": "generated_states", "state_id": 11, "op": "unload p6 t0 l4"}
+{"ts":4, "act": "state_update", "state_id": 17, "state": {"var0": "4(Atom at(t0, l4))", "var1": "86(Atom fuel(t0, level87))", "var2": "7(Atom in(p6, t0))", "var3": "4(Atom at(p5, l4))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "4(Atom at(p2, l4))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [11, "unload p5 t0 l4", 1]}
+{"ts": 4, "act": "generated_states", "state_id": 11, "op": "unload p5 t0 l4"}
+{"ts":4, "act": "state_update", "state_id": 17, "g": -1, "real_g": -1}
+{"ts": 4, "act": "evaluated_states", "state_id": 17, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 17, "h_ff": 17}
+{"ts": 4, "act": "evaluated_heuristics", "count": 1}
+{"ts":4, "act": "state_update", "state_id": 18, "state": {"var0": "4(Atom at(t0, l4))", "var1": "86(Atom fuel(t0, level87))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [11, "load p2 t0 l4", 1]}
+{"ts": 4, "act": "generated_states", "state_id": 11, "op": "load p2 t0 l4"}
+{"ts":4, "act": "state_update", "state_id": 18, "g": -1, "real_g": -1}
+{"ts": 4, "act": "evaluated_states", "state_id": 18, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 18, "h_ff": 15}
+{"ts": 4, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 5}
+{"ts":5, "act": "state_update", "state_id": 18, "g": 4, "real_g": 4}
+{"ts": 5, "act": "expanded_states", "state_id": 18}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 5}
+{"ts":5, "act": "state_update", "state_id": 19, "state": {"var0": "1(Atom at(t0, l1))", "var1": "62(Atom fuel(t0, level65))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [18, "drive t0 l4 l1 level65 level22 level87", 1]}
+{"ts": 5, "act": "generated_states", "state_id": 18, "op": "drive t0 l4 l1 level65 level22 level87"}
+{"ts":5, "act": "state_update", "state_id": 19, "g": -1, "real_g": -1}
+{"ts": 5, "act": "evaluated_states", "state_id": 19, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 5}
+{"ts":5, "act": "state_update", "state_id": 19, "h_ff": 14}
+{"ts": 5, "act": "evaluated_heuristics", "count": 1}
+{"ts":5, "act": "state_update", "state_id": 20, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [18, "drive t0 l4 l3 level79 level8 level87", 1]}
+{"ts": 5, "act": "generated_states", "state_id": 18, "op": "drive t0 l4 l3 level79 level8 level87"}
+{"ts":5, "act": "state_update", "state_id": 20, "g": -1, "real_g": -1}
+{"ts": 5, "act": "evaluated_states", "state_id": 20, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 5}
+{"ts":5, "act": "state_update", "state_id": 20, "h_ff": 14}
+{"ts": 5, "act": "evaluated_heuristics", "count": 1}
+{"ts":5, "act": "state_update", "state_id": 21, "state": {"var0": "5(Atom at(t0, l5))", "var1": "73(Atom fuel(t0, level75))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [18, "drive t0 l4 l5 level75 level12 level87", 1]}
+{"ts": 5, "act": "generated_states", "state_id": 18, "op": "drive t0 l4 l5 level75 level12 level87"}
+{"ts":5, "act": "state_update", "state_id": 21, "g": -1, "real_g": -1}
+{"ts": 5, "act": "evaluated_states", "state_id": 21, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 5}
+{"ts":5, "act": "state_update", "state_id": 21, "h_ff": 15}
+{"ts": 5, "act": "evaluated_heuristics", "count": 1}
+{"ts":5, "act": "state_update", "state_id": 13, "new_parent": [18, "unload p6 t0 l4", 1]}
+{"ts": 5, "act": "generated_states", "state_id": 18, "op": "unload p6 t0 l4"}
+{"ts":5, "act": "state_update", "state_id": 13, "g": 3, "real_g": 3}
+{"ts":5, "act": "state_update", "state_id": 22, "state": {"var0": "4(Atom at(t0, l4))", "var1": "86(Atom fuel(t0, level87))", "var2": "7(Atom in(p6, t0))", "var3": "4(Atom at(p5, l4))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [18, "unload p5 t0 l4", 1]}
+{"ts": 5, "act": "generated_states", "state_id": 18, "op": "unload p5 t0 l4"}
+{"ts":5, "act": "state_update", "state_id": 22, "g": -1, "real_g": -1}
+{"ts": 5, "act": "evaluated_states", "state_id": 22, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 5}
+{"ts":5, "act": "state_update", "state_id": 22, "h_ff": 16}
+{"ts": 5, "act": "evaluated_heuristics", "count": 1}
+{"ts":5, "act": "state_update", "state_id": 11, "new_parent": [18, "unload p2 t0 l4", 1]}
+{"ts": 5, "act": "generated_states", "state_id": 18, "op": "unload p2 t0 l4"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 19, "g": 5, "real_g": 5}
+{"ts": 6, "act": "expanded_states", "state_id": 19}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 23, "state": {"var0": "2(Atom at(t0, l2))", "var1": "59(Atom fuel(t0, level62))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [19, "drive t0 l1 l2 level62 level3 level65", 1]}
+{"ts": 6, "act": "generated_states", "state_id": 19, "op": "drive t0 l1 l2 level62 level3 level65"}
+{"ts":6, "act": "state_update", "state_id": 23, "g": -1, "real_g": -1}
+{"ts": 6, "act": "evaluated_states", "state_id": 23, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 23, "h_ff": 15}
+{"ts": 6, "act": "evaluated_heuristics", "count": 1}
+{"ts":6, "act": "state_update", "state_id": 24, "state": {"var0": "3(Atom at(t0, l3))", "var1": "49(Atom fuel(t0, level53))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [19, "drive t0 l1 l3 level53 level12 level65", 1]}
+{"ts": 6, "act": "generated_states", "state_id": 19, "op": "drive t0 l1 l3 level53 level12 level65"}
+{"ts":6, "act": "state_update", "state_id": 24, "g": -1, "real_g": -1}
+{"ts": 6, "act": "evaluated_states", "state_id": 24, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 24, "h_ff": 14}
+{"ts": 6, "act": "evaluated_heuristics", "count": 1}
+{"ts":6, "act": "state_update", "state_id": 25, "state": {"var0": "4(Atom at(t0, l4))", "var1": "38(Atom fuel(t0, level43))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [19, "drive t0 l1 l4 level43 level22 level65", 1]}
+{"ts": 6, "act": "generated_states", "state_id": 19, "op": "drive t0 l1 l4 level43 level22 level65"}
+{"ts":6, "act": "state_update", "state_id": 25, "g": -1, "real_g": -1}
+{"ts": 6, "act": "evaluated_states", "state_id": 25, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 25, "h_ff": 15}
+{"ts": 6, "act": "evaluated_heuristics", "count": 1}
+{"ts":6, "act": "state_update", "state_id": 26, "state": {"var0": "1(Atom at(t0, l1))", "var1": "62(Atom fuel(t0, level65))", "var2": "1(Atom at(p6, l1))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [19, "unload p6 t0 l1", 1]}
+{"ts": 6, "act": "generated_states", "state_id": 19, "op": "unload p6 t0 l1"}
+{"ts":6, "act": "state_update", "state_id": 26, "g": -1, "real_g": -1}
+{"ts": 6, "act": "evaluated_states", "state_id": 26, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 26, "h_ff": 15}
+{"ts": 6, "act": "evaluated_heuristics", "count": 1}
+{"ts":6, "act": "state_update", "state_id": 27, "state": {"var0": "1(Atom at(t0, l1))", "var1": "62(Atom fuel(t0, level65))", "var2": "7(Atom in(p6, t0))", "var3": "1(Atom at(p5, l1))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [19, "unload p5 t0 l1", 1]}
+{"ts": 6, "act": "generated_states", "state_id": 19, "op": "unload p5 t0 l1"}
+{"ts":6, "act": "state_update", "state_id": 27, "g": -1, "real_g": -1}
+{"ts": 6, "act": "evaluated_states", "state_id": 27, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 27, "h_ff": 15}
+{"ts": 6, "act": "evaluated_heuristics", "count": 1}
+{"ts":6, "act": "state_update", "state_id": 28, "state": {"var0": "1(Atom at(t0, l1))", "var1": "62(Atom fuel(t0, level65))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "1(Atom at(p2, l1))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [19, "unload p2 t0 l1", 1]}
+{"ts": 6, "act": "generated_states", "state_id": 19, "op": "unload p2 t0 l1"}
+{"ts":6, "act": "state_update", "state_id": 28, "g": -1, "real_g": -1}
+{"ts": 6, "act": "evaluated_states", "state_id": 28, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 28, "h_ff": 15}
+{"ts": 6, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 20, "g": 5, "real_g": 5}
+{"ts": 7, "act": "expanded_states", "state_id": 20}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 29, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [20, "drive t0 l3 l0 level61 level18 level79", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 20, "op": "drive t0 l3 l0 level61 level18 level79"}
+{"ts":7, "act": "state_update", "state_id": 29, "g": -1, "real_g": -1}
+{"ts": 7, "act": "evaluated_states", "state_id": 29, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 29, "h_ff": 14}
+{"ts": 7, "act": "evaluated_heuristics", "count": 1}
+{"ts":7, "act": "state_update", "state_id": 30, "state": {"var0": "1(Atom at(t0, l1))", "var1": "64(Atom fuel(t0, level67))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [20, "drive t0 l3 l1 level67 level12 level79", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 20, "op": "drive t0 l3 l1 level67 level12 level79"}
+{"ts":7, "act": "state_update", "state_id": 30, "g": -1, "real_g": -1}
+{"ts": 7, "act": "evaluated_states", "state_id": 30, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 30, "h_ff": 14}
+{"ts": 7, "act": "evaluated_heuristics", "count": 1}
+{"ts":7, "act": "state_update", "state_id": 31, "state": {"var0": "4(Atom at(t0, l4))", "var1": "69(Atom fuel(t0, level71))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [20, "drive t0 l3 l4 level71 level8 level79", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 20, "op": "drive t0 l3 l4 level71 level8 level79"}
+{"ts":7, "act": "state_update", "state_id": 31, "g": -1, "real_g": -1}
+{"ts": 7, "act": "evaluated_states", "state_id": 31, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 31, "h_ff": 15}
+{"ts": 7, "act": "evaluated_heuristics", "count": 1}
+{"ts":7, "act": "state_update", "state_id": 32, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "3(Atom at(p6, l3))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [20, "unload p6 t0 l3", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 20, "op": "unload p6 t0 l3"}
+{"ts":7, "act": "state_update", "state_id": 32, "g": -1, "real_g": -1}
+{"ts": 7, "act": "evaluated_states", "state_id": 32, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 32, "h_ff": 15}
+{"ts": 7, "act": "evaluated_heuristics", "count": 1}
+{"ts":7, "act": "state_update", "state_id": 33, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "3(Atom at(p5, l3))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [20, "unload p5 t0 l3", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 20, "op": "unload p5 t0 l3"}
+{"ts":7, "act": "state_update", "state_id": 33, "g": -1, "real_g": -1}
+{"ts": 7, "act": "evaluated_states", "state_id": 33, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 33, "h_ff": 15}
+{"ts": 7, "act": "evaluated_heuristics", "count": 1}
+{"ts":7, "act": "state_update", "state_id": 34, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "3(Atom at(p2, l3))", "var7": "3(Atom at(p1, l3))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [20, "unload p2 t0 l3", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 20, "op": "unload p2 t0 l3"}
+{"ts":7, "act": "state_update", "state_id": 34, "g": -1, "real_g": -1}
+{"ts": 7, "act": "evaluated_states", "state_id": 34, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 34, "h_ff": 15}
+{"ts": 7, "act": "evaluated_heuristics", "count": 1}
+{"ts":7, "act": "state_update", "state_id": 35, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [20, "load p1 t0 l3", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 20, "op": "load p1 t0 l3"}
+{"ts":7, "act": "state_update", "state_id": 35, "g": -1, "real_g": -1}
+{"ts": 7, "act": "evaluated_states", "state_id": 35, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 35, "h_ff": 13}
+{"ts": 7, "act": "evaluated_heuristics", "count": 1}
+{"ts":7, "act": "state_update", "state_id": 36, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "3(Atom at(p1, l3))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [20, "load p0 t0 l3", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 20, "op": "load p0 t0 l3"}
+{"ts":7, "act": "state_update", "state_id": 36, "g": -1, "real_g": -1}
+{"ts": 7, "act": "evaluated_states", "state_id": 36, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 36, "h_ff": 13}
+{"ts": 7, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 35, "g": 6, "real_g": 6}
+{"ts": 8, "act": "expanded_states", "state_id": 35}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 37, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [35, "drive t0 l3 l0 level61 level18 level79", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 35, "op": "drive t0 l3 l0 level61 level18 level79"}
+{"ts":8, "act": "state_update", "state_id": 37, "g": -1, "real_g": -1}
+{"ts": 8, "act": "evaluated_states", "state_id": 37, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 37, "h_ff": 13}
+{"ts": 8, "act": "evaluated_heuristics", "count": 1}
+{"ts":8, "act": "state_update", "state_id": 38, "state": {"var0": "1(Atom at(t0, l1))", "var1": "64(Atom fuel(t0, level67))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [35, "drive t0 l3 l1 level67 level12 level79", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 35, "op": "drive t0 l3 l1 level67 level12 level79"}
+{"ts":8, "act": "state_update", "state_id": 38, "g": -1, "real_g": -1}
+{"ts": 8, "act": "evaluated_states", "state_id": 38, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 38, "h_ff": 13}
+{"ts": 8, "act": "evaluated_heuristics", "count": 1}
+{"ts":8, "act": "state_update", "state_id": 39, "state": {"var0": "4(Atom at(t0, l4))", "var1": "69(Atom fuel(t0, level71))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [35, "drive t0 l3 l4 level71 level8 level79", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 35, "op": "drive t0 l3 l4 level71 level8 level79"}
+{"ts":8, "act": "state_update", "state_id": 39, "g": -1, "real_g": -1}
+{"ts": 8, "act": "evaluated_states", "state_id": 39, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 39, "h_ff": 14}
+{"ts": 8, "act": "evaluated_heuristics", "count": 1}
+{"ts":8, "act": "state_update", "state_id": 40, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "3(Atom at(p6, l3))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [35, "unload p6 t0 l3", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 35, "op": "unload p6 t0 l3"}
+{"ts":8, "act": "state_update", "state_id": 40, "g": -1, "real_g": -1}
+{"ts": 8, "act": "evaluated_states", "state_id": 40, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 40, "h_ff": 14}
+{"ts": 8, "act": "evaluated_heuristics", "count": 1}
+{"ts":8, "act": "state_update", "state_id": 41, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "3(Atom at(p5, l3))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [35, "unload p5 t0 l3", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 35, "op": "unload p5 t0 l3"}
+{"ts":8, "act": "state_update", "state_id": 41, "g": -1, "real_g": -1}
+{"ts": 8, "act": "evaluated_states", "state_id": 41, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 41, "h_ff": 14}
+{"ts": 8, "act": "evaluated_heuristics", "count": 1}
+{"ts":8, "act": "state_update", "state_id": 42, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "3(Atom at(p2, l3))", "var7": "7(Atom in(p1, t0))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [35, "unload p2 t0 l3", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 35, "op": "unload p2 t0 l3"}
+{"ts":8, "act": "state_update", "state_id": 42, "g": -1, "real_g": -1}
+{"ts": 8, "act": "evaluated_states", "state_id": 42, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 42, "h_ff": 14}
+{"ts": 8, "act": "evaluated_heuristics", "count": 1}
+{"ts":8, "act": "state_update", "state_id": 20, "new_parent": [35, "unload p1 t0 l3", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 35, "op": "unload p1 t0 l3"}
+{"ts":8, "act": "state_update", "state_id": 43, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [35, "load p0 t0 l3", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 35, "op": "load p0 t0 l3"}
+{"ts":8, "act": "state_update", "state_id": 43, "g": -1, "real_g": -1}
+{"ts": 8, "act": "evaluated_states", "state_id": 43, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 43, "h_ff": 12}
+{"ts": 8, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 43, "g": 7, "real_g": 7}
+{"ts": 9, "act": "expanded_states", "state_id": 43}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 44, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [43, "drive t0 l3 l0 level61 level18 level79", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 43, "op": "drive t0 l3 l0 level61 level18 level79"}
+{"ts":9, "act": "state_update", "state_id": 44, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 44, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 44, "h_ff": 12}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"ts":9, "act": "state_update", "state_id": 45, "state": {"var0": "1(Atom at(t0, l1))", "var1": "64(Atom fuel(t0, level67))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [43, "drive t0 l3 l1 level67 level12 level79", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 43, "op": "drive t0 l3 l1 level67 level12 level79"}
+{"ts":9, "act": "state_update", "state_id": 45, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 45, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 45, "h_ff": 12}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"ts":9, "act": "state_update", "state_id": 46, "state": {"var0": "4(Atom at(t0, l4))", "var1": "69(Atom fuel(t0, level71))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [43, "drive t0 l3 l4 level71 level8 level79", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 43, "op": "drive t0 l3 l4 level71 level8 level79"}
+{"ts":9, "act": "state_update", "state_id": 46, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 46, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 46, "h_ff": 13}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"ts":9, "act": "state_update", "state_id": 47, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "3(Atom at(p6, l3))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [43, "unload p6 t0 l3", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 43, "op": "unload p6 t0 l3"}
+{"ts":9, "act": "state_update", "state_id": 47, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 47, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 47, "h_ff": 13}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"ts":9, "act": "state_update", "state_id": 48, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "3(Atom at(p5, l3))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [43, "unload p5 t0 l3", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 43, "op": "unload p5 t0 l3"}
+{"ts":9, "act": "state_update", "state_id": 48, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 48, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 48, "h_ff": 13}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"ts":9, "act": "state_update", "state_id": 49, "state": {"var0": "3(Atom at(t0, l3))", "var1": "77(Atom fuel(t0, level79))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "3(Atom at(p2, l3))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [43, "unload p2 t0 l3", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 43, "op": "unload p2 t0 l3"}
+{"ts":9, "act": "state_update", "state_id": 49, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 49, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 49, "h_ff": 13}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"ts":9, "act": "state_update", "state_id": 36, "new_parent": [43, "unload p1 t0 l3", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 43, "op": "unload p1 t0 l3"}
+{"ts":9, "act": "state_update", "state_id": 36, "g": 6, "real_g": 6}
+{"ts":9, "act": "state_update", "state_id": 35, "new_parent": [43, "unload p0 t0 l3", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 43, "op": "unload p0 t0 l3"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 44, "g": 8, "real_g": 8}
+{"ts": 10, "act": "expanded_states", "state_id": 44}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 50, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [44, "drive t0 l0 l3 level43 level18 level61", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 44, "op": "drive t0 l0 l3 level43 level18 level61"}
+{"ts":10, "act": "state_update", "state_id": 50, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 50, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 50, "h_ff": 12}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 51, "state": {"var0": "5(Atom at(t0, l5))", "var1": "51(Atom fuel(t0, level55))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [44, "drive t0 l0 l5 level55 level6 level61", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 44, "op": "drive t0 l0 l5 level55 level6 level61"}
+{"ts":10, "act": "state_update", "state_id": 51, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 51, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 51, "h_ff": 13}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 52, "state": {"var0": "6(Atom at(t0, l6))", "var1": "43(Atom fuel(t0, level48))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [44, "drive t0 l0 l6 level48 level13 level61", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 44, "op": "drive t0 l0 l6 level48 level13 level61"}
+{"ts":10, "act": "state_update", "state_id": 52, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 52, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 52, "h_ff": 12}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 53, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [44, "unload p6 t0 l0", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 44, "op": "unload p6 t0 l0"}
+{"ts":10, "act": "state_update", "state_id": 53, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 53, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 53, "h_ff": 11}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 54, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "0(Atom at(p5, l0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [44, "unload p5 t0 l0", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 44, "op": "unload p5 t0 l0"}
+{"ts":10, "act": "state_update", "state_id": 54, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 54, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 54, "h_ff": 11}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 55, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [44, "load p4 t0 l0", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 44, "op": "load p4 t0 l0"}
+{"ts":10, "act": "state_update", "state_id": 55, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 55, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 55, "h_ff": 11}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 56, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [44, "unload p2 t0 l0", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 44, "op": "unload p2 t0 l0"}
+{"ts":10, "act": "state_update", "state_id": 56, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 56, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 56, "h_ff": 11}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 57, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "0(Atom at(p1, l0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [44, "unload p1 t0 l0", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 44, "op": "unload p1 t0 l0"}
+{"ts":10, "act": "state_update", "state_id": 57, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 57, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 57, "h_ff": 13}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 58, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "0(Atom at(p0, l0))"}, "new_parent": [44, "unload p0 t0 l0", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 44, "op": "unload p0 t0 l0"}
+{"ts":10, "act": "state_update", "state_id": 58, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 58, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 58, "h_ff": 13}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 53, "g": 9, "real_g": 9}
+{"ts": 11, "act": "expanded_states", "state_id": 53}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 59, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [53, "drive t0 l0 l3 level43 level18 level61", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 53, "op": "drive t0 l0 l3 level43 level18 level61"}
+{"ts":11, "act": "state_update", "state_id": 59, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 59, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 59, "h_ff": 11}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 60, "state": {"var0": "5(Atom at(t0, l5))", "var1": "51(Atom fuel(t0, level55))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [53, "drive t0 l0 l5 level55 level6 level61", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 53, "op": "drive t0 l0 l5 level55 level6 level61"}
+{"ts":11, "act": "state_update", "state_id": 60, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 60, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 60, "h_ff": 12}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 61, "state": {"var0": "6(Atom at(t0, l6))", "var1": "43(Atom fuel(t0, level48))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [53, "drive t0 l0 l6 level48 level13 level61", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 53, "op": "drive t0 l0 l6 level48 level13 level61"}
+{"ts":11, "act": "state_update", "state_id": 61, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 61, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 61, "h_ff": 11}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 44, "new_parent": [53, "load p6 t0 l0", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 53, "op": "load p6 t0 l0"}
+{"ts":11, "act": "state_update", "state_id": 62, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [53, "unload p5 t0 l0", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 53, "op": "unload p5 t0 l0"}
+{"ts":11, "act": "state_update", "state_id": 62, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 62, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 62, "h_ff": 10}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 63, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [53, "load p4 t0 l0", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 53, "op": "load p4 t0 l0"}
+{"ts":11, "act": "state_update", "state_id": 63, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 63, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 63, "h_ff": 10}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 64, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [53, "unload p2 t0 l0", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 53, "op": "unload p2 t0 l0"}
+{"ts":11, "act": "state_update", "state_id": 64, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 64, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 64, "h_ff": 10}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 65, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "0(Atom at(p1, l0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [53, "unload p1 t0 l0", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 53, "op": "unload p1 t0 l0"}
+{"ts":11, "act": "state_update", "state_id": 65, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 65, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 65, "h_ff": 12}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 66, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "0(Atom at(p0, l0))"}, "new_parent": [53, "unload p0 t0 l0", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 53, "op": "unload p0 t0 l0"}
+{"ts":11, "act": "state_update", "state_id": 66, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 66, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 66, "h_ff": 12}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 62, "g": 10, "real_g": 10}
+{"ts": 12, "act": "expanded_states", "state_id": 62}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 67, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [62, "drive t0 l0 l3 level43 level18 level61", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 62, "op": "drive t0 l0 l3 level43 level18 level61"}
+{"ts":12, "act": "state_update", "state_id": 67, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 67, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 67, "h_ff": 10}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 68, "state": {"var0": "5(Atom at(t0, l5))", "var1": "51(Atom fuel(t0, level55))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [62, "drive t0 l0 l5 level55 level6 level61", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 62, "op": "drive t0 l0 l5 level55 level6 level61"}
+{"ts":12, "act": "state_update", "state_id": 68, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 68, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 68, "h_ff": 11}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 69, "state": {"var0": "6(Atom at(t0, l6))", "var1": "43(Atom fuel(t0, level48))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [62, "drive t0 l0 l6 level48 level13 level61", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 62, "op": "drive t0 l0 l6 level48 level13 level61"}
+{"ts":12, "act": "state_update", "state_id": 69, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 69, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 69, "h_ff": 10}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 54, "new_parent": [62, "load p6 t0 l0", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 62, "op": "load p6 t0 l0"}
+{"ts":12, "act": "state_update", "state_id": 54, "g": 9, "real_g": 9}
+{"ts":12, "act": "state_update", "state_id": 53, "new_parent": [62, "load p5 t0 l0", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 62, "op": "load p5 t0 l0"}
+{"ts":12, "act": "state_update", "state_id": 70, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [62, "load p4 t0 l0", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 62, "op": "load p4 t0 l0"}
+{"ts":12, "act": "state_update", "state_id": 70, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 70, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 70, "h_ff": 9}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 71, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [62, "unload p2 t0 l0", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 62, "op": "unload p2 t0 l0"}
+{"ts":12, "act": "state_update", "state_id": 71, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 71, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 71, "h_ff": 9}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 72, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "0(Atom at(p1, l0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [62, "unload p1 t0 l0", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 62, "op": "unload p1 t0 l0"}
+{"ts":12, "act": "state_update", "state_id": 72, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 72, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 72, "h_ff": 11}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 73, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "0(Atom at(p4, l0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "0(Atom at(p0, l0))"}, "new_parent": [62, "unload p0 t0 l0", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 62, "op": "unload p0 t0 l0"}
+{"ts":12, "act": "state_update", "state_id": 73, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 73, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 73, "h_ff": 11}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 70, "g": 11, "real_g": 11}
+{"ts": 13, "act": "expanded_states", "state_id": 70}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 74, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [70, "drive t0 l0 l3 level43 level18 level61", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 70, "op": "drive t0 l0 l3 level43 level18 level61"}
+{"ts":13, "act": "state_update", "state_id": 74, "g": -1, "real_g": -1}
+{"ts": 13, "act": "evaluated_states", "state_id": 74, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 74, "h_ff": 9}
+{"ts": 13, "act": "evaluated_heuristics", "count": 1}
+{"ts":13, "act": "state_update", "state_id": 75, "state": {"var0": "5(Atom at(t0, l5))", "var1": "51(Atom fuel(t0, level55))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [70, "drive t0 l0 l5 level55 level6 level61", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 70, "op": "drive t0 l0 l5 level55 level6 level61"}
+{"ts":13, "act": "state_update", "state_id": 75, "g": -1, "real_g": -1}
+{"ts": 13, "act": "evaluated_states", "state_id": 75, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 75, "h_ff": 10}
+{"ts": 13, "act": "evaluated_heuristics", "count": 1}
+{"ts":13, "act": "state_update", "state_id": 76, "state": {"var0": "6(Atom at(t0, l6))", "var1": "43(Atom fuel(t0, level48))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [70, "drive t0 l0 l6 level48 level13 level61", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 70, "op": "drive t0 l0 l6 level48 level13 level61"}
+{"ts":13, "act": "state_update", "state_id": 76, "g": -1, "real_g": -1}
+{"ts": 13, "act": "evaluated_states", "state_id": 76, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 76, "h_ff": 9}
+{"ts": 13, "act": "evaluated_heuristics", "count": 1}
+{"ts":13, "act": "state_update", "state_id": 77, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [70, "load p6 t0 l0", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 70, "op": "load p6 t0 l0"}
+{"ts":13, "act": "state_update", "state_id": 77, "g": -1, "real_g": -1}
+{"ts": 13, "act": "evaluated_states", "state_id": 77, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 77, "h_ff": 10}
+{"ts": 13, "act": "evaluated_heuristics", "count": 1}
+{"ts":13, "act": "state_update", "state_id": 63, "new_parent": [70, "load p5 t0 l0", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 70, "op": "load p5 t0 l0"}
+{"ts":13, "act": "state_update", "state_id": 63, "g": 10, "real_g": 10}
+{"ts":13, "act": "state_update", "state_id": 62, "new_parent": [70, "unload p4 t0 l0", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 70, "op": "unload p4 t0 l0"}
+{"ts":13, "act": "state_update", "state_id": 78, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [70, "unload p2 t0 l0", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 70, "op": "unload p2 t0 l0"}
+{"ts":13, "act": "state_update", "state_id": 78, "g": -1, "real_g": -1}
+{"ts": 13, "act": "evaluated_states", "state_id": 78, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 78, "h_ff": 8}
+{"ts": 13, "act": "evaluated_heuristics", "count": 1}
+{"ts":13, "act": "state_update", "state_id": 79, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "0(Atom at(p1, l0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [70, "unload p1 t0 l0", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 70, "op": "unload p1 t0 l0"}
+{"ts":13, "act": "state_update", "state_id": 79, "g": -1, "real_g": -1}
+{"ts": 13, "act": "evaluated_states", "state_id": 79, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 79, "h_ff": 10}
+{"ts": 13, "act": "evaluated_heuristics", "count": 1}
+{"ts":13, "act": "state_update", "state_id": 80, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "0(Atom at(p0, l0))"}, "new_parent": [70, "unload p0 t0 l0", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 70, "op": "unload p0 t0 l0"}
+{"ts":13, "act": "state_update", "state_id": 80, "g": -1, "real_g": -1}
+{"ts": 13, "act": "evaluated_states", "state_id": 80, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 80, "h_ff": 10}
+{"ts": 13, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 78, "g": 12, "real_g": 12}
+{"ts": 14, "act": "expanded_states", "state_id": 78}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 81, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [78, "drive t0 l0 l3 level43 level18 level61", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 78, "op": "drive t0 l0 l3 level43 level18 level61"}
+{"ts":14, "act": "state_update", "state_id": 81, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 81, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 81, "h_ff": 8}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"ts":14, "act": "state_update", "state_id": 82, "state": {"var0": "5(Atom at(t0, l5))", "var1": "51(Atom fuel(t0, level55))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [78, "drive t0 l0 l5 level55 level6 level61", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 78, "op": "drive t0 l0 l5 level55 level6 level61"}
+{"ts":14, "act": "state_update", "state_id": 82, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 82, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 82, "h_ff": 9}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"ts":14, "act": "state_update", "state_id": 83, "state": {"var0": "6(Atom at(t0, l6))", "var1": "43(Atom fuel(t0, level48))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [78, "drive t0 l0 l6 level48 level13 level61", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 78, "op": "drive t0 l0 l6 level48 level13 level61"}
+{"ts":14, "act": "state_update", "state_id": 83, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 83, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 83, "h_ff": 8}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"ts":14, "act": "state_update", "state_id": 84, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "7(Atom in(p6, t0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [78, "load p6 t0 l0", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 78, "op": "load p6 t0 l0"}
+{"ts":14, "act": "state_update", "state_id": 84, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 84, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 84, "h_ff": 9}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"ts":14, "act": "state_update", "state_id": 85, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [78, "load p5 t0 l0", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 78, "op": "load p5 t0 l0"}
+{"ts":14, "act": "state_update", "state_id": 85, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 85, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 85, "h_ff": 9}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"ts":14, "act": "state_update", "state_id": 71, "new_parent": [78, "unload p4 t0 l0", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 78, "op": "unload p4 t0 l0"}
+{"ts":14, "act": "state_update", "state_id": 71, "g": 11, "real_g": 11}
+{"ts":14, "act": "state_update", "state_id": 70, "new_parent": [78, "load p2 t0 l0", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 78, "op": "load p2 t0 l0"}
+{"ts":14, "act": "state_update", "state_id": 86, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "0(Atom at(p1, l0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [78, "unload p1 t0 l0", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 78, "op": "unload p1 t0 l0"}
+{"ts":14, "act": "state_update", "state_id": 86, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 86, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 86, "h_ff": 9}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"ts":14, "act": "state_update", "state_id": 87, "state": {"var0": "0(Atom at(t0, l0))", "var1": "58(Atom fuel(t0, level61))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "0(Atom at(p0, l0))"}, "new_parent": [78, "unload p0 t0 l0", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 78, "op": "unload p0 t0 l0"}
+{"ts":14, "act": "state_update", "state_id": 87, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 87, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 87, "h_ff": 9}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 81, "g": 13, "real_g": 13}
+{"ts": 15, "act": "expanded_states", "state_id": 81}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 88, "state": {"var0": "0(Atom at(t0, l0))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [81, "drive t0 l3 l0 level25 level18 level43", 1]}
+{"ts": 15, "act": "generated_states", "state_id": 81, "op": "drive t0 l3 l0 level25 level18 level43"}
+{"ts":15, "act": "state_update", "state_id": 88, "g": -1, "real_g": -1}
+{"ts": 15, "act": "evaluated_states", "state_id": 88, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 88, "h_ff": 8}
+{"ts": 15, "act": "evaluated_heuristics", "count": 1}
+{"ts":15, "act": "state_update", "state_id": 89, "state": {"var0": "1(Atom at(t0, l1))", "var1": "25(Atom fuel(t0, level31))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [81, "drive t0 l3 l1 level31 level12 level43", 1]}
+{"ts": 15, "act": "generated_states", "state_id": 81, "op": "drive t0 l3 l1 level31 level12 level43"}
+{"ts":15, "act": "state_update", "state_id": 89, "g": -1, "real_g": -1}
+{"ts": 15, "act": "evaluated_states", "state_id": 89, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 89, "h_ff": 8}
+{"ts": 15, "act": "evaluated_heuristics", "count": 1}
+{"ts":15, "act": "state_update", "state_id": 90, "state": {"var0": "4(Atom at(t0, l4))", "var1": "29(Atom fuel(t0, level35))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [81, "drive t0 l3 l4 level35 level8 level43", 1]}
+{"ts": 15, "act": "generated_states", "state_id": 81, "op": "drive t0 l3 l4 level35 level8 level43"}
+{"ts":15, "act": "state_update", "state_id": 90, "g": -1, "real_g": -1}
+{"ts": 15, "act": "evaluated_states", "state_id": 90, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 90, "h_ff": 9}
+{"ts": 15, "act": "evaluated_heuristics", "count": 1}
+{"ts":15, "act": "state_update", "state_id": 91, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [81, "unload p4 t0 l3", 1]}
+{"ts": 15, "act": "generated_states", "state_id": 81, "op": "unload p4 t0 l3"}
+{"ts":15, "act": "state_update", "state_id": 91, "g": -1, "real_g": -1}
+{"ts": 15, "act": "evaluated_states", "state_id": 91, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 91, "h_ff": 7}
+{"ts": 15, "act": "evaluated_heuristics", "count": 1}
+{"ts":15, "act": "state_update", "state_id": 92, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "3(Atom at(p1, l3))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [81, "unload p1 t0 l3", 1]}
+{"ts": 15, "act": "generated_states", "state_id": 81, "op": "unload p1 t0 l3"}
+{"ts":15, "act": "state_update", "state_id": 92, "g": -1, "real_g": -1}
+{"ts": 15, "act": "evaluated_states", "state_id": 92, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 92, "h_ff": 9}
+{"ts": 15, "act": "evaluated_heuristics", "count": 1}
+{"ts":15, "act": "state_update", "state_id": 93, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "7(Atom in(p4, t0))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [81, "unload p0 t0 l3", 1]}
+{"ts": 15, "act": "generated_states", "state_id": 81, "op": "unload p0 t0 l3"}
+{"ts":15, "act": "state_update", "state_id": 93, "g": -1, "real_g": -1}
+{"ts": 15, "act": "evaluated_states", "state_id": 93, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 93, "h_ff": 9}
+{"ts": 15, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 91, "g": 14, "real_g": 14}
+{"ts": 16, "act": "expanded_states", "state_id": 91}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 94, "state": {"var0": "0(Atom at(t0, l0))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [91, "drive t0 l3 l0 level25 level18 level43", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 91, "op": "drive t0 l3 l0 level25 level18 level43"}
+{"ts":16, "act": "state_update", "state_id": 94, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 94, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 94, "h_ff": 6}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"ts":16, "act": "state_update", "state_id": 95, "state": {"var0": "1(Atom at(t0, l1))", "var1": "25(Atom fuel(t0, level31))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [91, "drive t0 l3 l1 level31 level12 level43", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 91, "op": "drive t0 l3 l1 level31 level12 level43"}
+{"ts":16, "act": "state_update", "state_id": 95, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 95, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 95, "h_ff": 7}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"ts":16, "act": "state_update", "state_id": 96, "state": {"var0": "4(Atom at(t0, l4))", "var1": "29(Atom fuel(t0, level35))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [91, "drive t0 l3 l4 level35 level8 level43", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 91, "op": "drive t0 l3 l4 level35 level8 level43"}
+{"ts":16, "act": "state_update", "state_id": 96, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 96, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 96, "h_ff": 7}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"ts":16, "act": "state_update", "state_id": 81, "new_parent": [91, "load p4 t0 l3", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 91, "op": "load p4 t0 l3"}
+{"ts":16, "act": "state_update", "state_id": 97, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "3(Atom at(p1, l3))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [91, "unload p1 t0 l3", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 91, "op": "unload p1 t0 l3"}
+{"ts":16, "act": "state_update", "state_id": 97, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 97, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 97, "h_ff": 8}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"ts":16, "act": "state_update", "state_id": 98, "state": {"var0": "3(Atom at(t0, l3))", "var1": "38(Atom fuel(t0, level43))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "3(Atom at(p0, l3))"}, "new_parent": [91, "unload p0 t0 l3", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 91, "op": "unload p0 t0 l3"}
+{"ts":16, "act": "state_update", "state_id": 98, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 98, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 98, "h_ff": 8}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 94, "g": 15, "real_g": 15}
+{"ts": 17, "act": "expanded_states", "state_id": 94}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 99, "state": {"var0": "3(Atom at(t0, l3))", "var1": "67(Atom fuel(t0, level7))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [94, "drive t0 l0 l3 level7 level18 level25", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 94, "op": "drive t0 l0 l3 level7 level18 level25"}
+{"ts":17, "act": "state_update", "state_id": 99, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 99, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"ts": 17, "act": "dead_end_state", "state_id": 99}
+{"ts":17, "act": "state_update", "state_id": 100, "state": {"var0": "5(Atom at(t0, l5))", "var1": "11(Atom fuel(t0, level19))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [94, "drive t0 l0 l5 level19 level6 level25", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 94, "op": "drive t0 l0 l5 level19 level6 level25"}
+{"ts":17, "act": "state_update", "state_id": 100, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 100, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 100, "h_ff": 6}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"ts":17, "act": "state_update", "state_id": 101, "state": {"var0": "6(Atom at(t0, l6))", "var1": "4(Atom fuel(t0, level12))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [94, "drive t0 l0 l6 level12 level13 level25", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 94, "op": "drive t0 l0 l6 level12 level13 level25"}
+{"ts":17, "act": "state_update", "state_id": 101, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 101, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"ts": 17, "act": "dead_end_state", "state_id": 101}
+{"ts":17, "act": "state_update", "state_id": 102, "state": {"var0": "0(Atom at(t0, l0))", "var1": "18(Atom fuel(t0, level25))", "var2": "7(Atom in(p6, t0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [94, "load p6 t0 l0", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 94, "op": "load p6 t0 l0"}
+{"ts":17, "act": "state_update", "state_id": 102, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 102, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 102, "h_ff": 7}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"ts":17, "act": "state_update", "state_id": 103, "state": {"var0": "0(Atom at(t0, l0))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [94, "load p5 t0 l0", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 94, "op": "load p5 t0 l0"}
+{"ts":17, "act": "state_update", "state_id": 103, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 103, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 103, "h_ff": 7}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"ts":17, "act": "state_update", "state_id": 104, "state": {"var0": "0(Atom at(t0, l0))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [94, "load p2 t0 l0", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 94, "op": "load p2 t0 l0"}
+{"ts":17, "act": "state_update", "state_id": 104, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 104, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 104, "h_ff": 7}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"ts":17, "act": "state_update", "state_id": 105, "state": {"var0": "0(Atom at(t0, l0))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "0(Atom at(p1, l0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [94, "unload p1 t0 l0", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 94, "op": "unload p1 t0 l0"}
+{"ts":17, "act": "state_update", "state_id": 105, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 105, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 105, "h_ff": 7}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"ts":17, "act": "state_update", "state_id": 106, "state": {"var0": "0(Atom at(t0, l0))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "0(Atom at(p0, l0))"}, "new_parent": [94, "unload p0 t0 l0", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 94, "op": "unload p0 t0 l0"}
+{"ts":17, "act": "state_update", "state_id": 106, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 106, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 106, "h_ff": 7}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 100, "g": 16, "real_g": 16}
+{"ts": 18, "act": "expanded_states", "state_id": 100}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 107, "state": {"var0": "0(Atom at(t0, l0))", "var1": "5(Atom fuel(t0, level13))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [100, "drive t0 l5 l0 level13 level6 level19", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 100, "op": "drive t0 l5 l0 level13 level6 level19"}
+{"ts":18, "act": "state_update", "state_id": 107, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 107, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 107, "h_ff": 6}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts":18, "act": "state_update", "state_id": 108, "state": {"var0": "2(Atom at(t0, l2))", "var1": "56(Atom fuel(t0, level6))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [100, "drive t0 l5 l2 level6 level13 level19", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 100, "op": "drive t0 l5 l2 level6 level13 level19"}
+{"ts":18, "act": "state_update", "state_id": 108, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 108, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts": 18, "act": "dead_end_state", "state_id": 108}
+{"ts":18, "act": "state_update", "state_id": 109, "state": {"var0": "4(Atom at(t0, l4))", "var1": "67(Atom fuel(t0, level7))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [100, "drive t0 l5 l4 level7 level12 level19", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 100, "op": "drive t0 l5 l4 level7 level12 level19"}
+{"ts":18, "act": "state_update", "state_id": 109, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 109, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts": 18, "act": "dead_end_state", "state_id": 109}
+{"ts":18, "act": "state_update", "state_id": 110, "state": {"var0": "5(Atom at(t0, l5))", "var1": "11(Atom fuel(t0, level19))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "5(Atom at(p1, l5))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [100, "unload p1 t0 l5", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 100, "op": "unload p1 t0 l5"}
+{"ts":18, "act": "state_update", "state_id": 110, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 110, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 110, "h_ff": 7}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts":18, "act": "state_update", "state_id": 111, "state": {"var0": "5(Atom at(t0, l5))", "var1": "11(Atom fuel(t0, level19))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "5(Atom at(p0, l5))"}, "new_parent": [100, "unload p0 t0 l5", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 100, "op": "unload p0 t0 l5"}
+{"ts":18, "act": "state_update", "state_id": 111, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 111, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 111, "h_ff": 7}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 107, "g": 17, "real_g": 17}
+{"ts": 19, "act": "expanded_states", "state_id": 107}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 112, "state": {"var0": "5(Atom at(t0, l5))", "var1": "67(Atom fuel(t0, level7))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [107, "drive t0 l0 l5 level7 level6 level13", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 107, "op": "drive t0 l0 l5 level7 level6 level13"}
+{"ts":19, "act": "state_update", "state_id": 112, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 112, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts": 19, "act": "dead_end_state", "state_id": 112}
+{"ts":19, "act": "state_update", "state_id": 113, "state": {"var0": "6(Atom at(t0, l6))", "var1": "0(Atom fuel(t0, level0))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [107, "drive t0 l0 l6 level0 level13 level13", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 107, "op": "drive t0 l0 l6 level0 level13 level13"}
+{"ts":19, "act": "state_update", "state_id": 113, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 113, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts": 19, "act": "dead_end_state", "state_id": 113}
+{"ts":19, "act": "state_update", "state_id": 114, "state": {"var0": "0(Atom at(t0, l0))", "var1": "5(Atom fuel(t0, level13))", "var2": "7(Atom in(p6, t0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [107, "load p6 t0 l0", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 107, "op": "load p6 t0 l0"}
+{"ts":19, "act": "state_update", "state_id": 114, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 114, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 114, "h_ff": 7}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 115, "state": {"var0": "0(Atom at(t0, l0))", "var1": "5(Atom fuel(t0, level13))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [107, "load p5 t0 l0", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 107, "op": "load p5 t0 l0"}
+{"ts":19, "act": "state_update", "state_id": 115, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 115, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 115, "h_ff": 7}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 116, "state": {"var0": "0(Atom at(t0, l0))", "var1": "5(Atom fuel(t0, level13))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "7(Atom in(p2, t0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [107, "load p2 t0 l0", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 107, "op": "load p2 t0 l0"}
+{"ts":19, "act": "state_update", "state_id": 116, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 116, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 116, "h_ff": 7}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 117, "state": {"var0": "0(Atom at(t0, l0))", "var1": "5(Atom fuel(t0, level13))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "0(Atom at(p1, l0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [107, "unload p1 t0 l0", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 107, "op": "unload p1 t0 l0"}
+{"ts":19, "act": "state_update", "state_id": 117, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 117, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 117, "h_ff": 7}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 118, "state": {"var0": "0(Atom at(t0, l0))", "var1": "5(Atom fuel(t0, level13))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "0(Atom at(p0, l0))"}, "new_parent": [107, "unload p0 t0 l0", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 107, "op": "unload p0 t0 l0"}
+{"ts":19, "act": "state_update", "state_id": 118, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 118, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 118, "h_ff": 7}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 95, "g": 15, "real_g": 15}
+{"ts": 20, "act": "expanded_states", "state_id": 95}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 119, "state": {"var0": "2(Atom at(t0, l2))", "var1": "21(Atom fuel(t0, level28))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [95, "drive t0 l1 l2 level28 level3 level31", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 95, "op": "drive t0 l1 l2 level28 level3 level31"}
+{"ts":20, "act": "state_update", "state_id": 119, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 119, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 119, "h_ff": 6}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"ts":20, "act": "state_update", "state_id": 120, "state": {"var0": "3(Atom at(t0, l3))", "var1": "11(Atom fuel(t0, level19))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [95, "drive t0 l1 l3 level19 level12 level31", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 95, "op": "drive t0 l1 l3 level19 level12 level31"}
+{"ts":20, "act": "state_update", "state_id": 120, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 120, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 120, "h_ff": 7}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"ts":20, "act": "state_update", "state_id": 121, "state": {"var0": "4(Atom at(t0, l4))", "var1": "88(Atom fuel(t0, level9))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [95, "drive t0 l1 l4 level9 level22 level31", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 95, "op": "drive t0 l1 l4 level9 level22 level31"}
+{"ts":20, "act": "state_update", "state_id": 121, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 121, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"ts": 20, "act": "dead_end_state", "state_id": 121}
+{"ts":20, "act": "state_update", "state_id": 122, "state": {"var0": "1(Atom at(t0, l1))", "var1": "25(Atom fuel(t0, level31))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "1(Atom at(p1, l1))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [95, "unload p1 t0 l1", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 95, "op": "unload p1 t0 l1"}
+{"ts":20, "act": "state_update", "state_id": 122, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 122, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 122, "h_ff": 8}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"ts":20, "act": "state_update", "state_id": 123, "state": {"var0": "1(Atom at(t0, l1))", "var1": "25(Atom fuel(t0, level31))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "1(Atom at(p0, l1))"}, "new_parent": [95, "unload p0 t0 l1", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 95, "op": "unload p0 t0 l1"}
+{"ts":20, "act": "state_update", "state_id": 123, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 123, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 123, "h_ff": 8}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 119, "g": 16, "real_g": 16}
+{"ts": 21, "act": "expanded_states", "state_id": 119}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 124, "state": {"var0": "1(Atom at(t0, l1))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [119, "drive t0 l2 l1 level25 level3 level28", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 119, "op": "drive t0 l2 l1 level25 level3 level28"}
+{"ts":21, "act": "state_update", "state_id": 124, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 124, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 124, "h_ff": 7}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 125, "state": {"var0": "5(Atom at(t0, l5))", "var1": "7(Atom fuel(t0, level15))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [119, "drive t0 l2 l5 level15 level13 level28", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 119, "op": "drive t0 l2 l5 level15 level13 level28"}
+{"ts":21, "act": "state_update", "state_id": 125, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 125, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 125, "h_ff": 6}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 101, "new_parent": [119, "drive t0 l2 l6 level12 level16 level28", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 119, "op": "drive t0 l2 l6 level12 level16 level28"}
+{"ts":21, "act": "state_update", "state_id": 126, "state": {"var0": "2(Atom at(t0, l2))", "var1": "21(Atom fuel(t0, level28))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [119, "load p3 t0 l2", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 119, "op": "load p3 t0 l2"}
+{"ts":21, "act": "state_update", "state_id": 126, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 126, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 126, "h_ff": 5}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 127, "state": {"var0": "2(Atom at(t0, l2))", "var1": "21(Atom fuel(t0, level28))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [119, "unload p1 t0 l2", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 119, "op": "unload p1 t0 l2"}
+{"ts":21, "act": "state_update", "state_id": 127, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 127, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 127, "h_ff": 5}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 128, "state": {"var0": "2(Atom at(t0, l2))", "var1": "21(Atom fuel(t0, level28))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [119, "unload p0 t0 l2", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 119, "op": "unload p0 t0 l2"}
+{"ts":21, "act": "state_update", "state_id": 128, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 128, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 128, "h_ff": 5}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 126, "g": 17, "real_g": 17}
+{"ts": 22, "act": "expanded_states", "state_id": 126}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 129, "state": {"var0": "1(Atom at(t0, l1))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [126, "drive t0 l2 l1 level25 level3 level28", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 126, "op": "drive t0 l2 l1 level25 level3 level28"}
+{"ts":22, "act": "state_update", "state_id": 129, "g": -1, "real_g": -1}
+{"ts": 22, "act": "evaluated_states", "state_id": 129, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 129, "h_ff": 6}
+{"ts": 22, "act": "evaluated_heuristics", "count": 1}
+{"ts":22, "act": "state_update", "state_id": 130, "state": {"var0": "5(Atom at(t0, l5))", "var1": "7(Atom fuel(t0, level15))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [126, "drive t0 l2 l5 level15 level13 level28", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 126, "op": "drive t0 l2 l5 level15 level13 level28"}
+{"ts":22, "act": "state_update", "state_id": 130, "g": -1, "real_g": -1}
+{"ts": 22, "act": "evaluated_states", "state_id": 130, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 130, "h_ff": 5}
+{"ts": 22, "act": "evaluated_heuristics", "count": 1}
+{"ts":22, "act": "state_update", "state_id": 131, "state": {"var0": "6(Atom at(t0, l6))", "var1": "4(Atom fuel(t0, level12))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [126, "drive t0 l2 l6 level12 level16 level28", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 126, "op": "drive t0 l2 l6 level12 level16 level28"}
+{"ts":22, "act": "state_update", "state_id": 131, "g": -1, "real_g": -1}
+{"ts": 22, "act": "evaluated_states", "state_id": 131, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts": 22, "act": "evaluated_heuristics", "count": 1}
+{"ts": 22, "act": "dead_end_state", "state_id": 131}
+{"ts":22, "act": "state_update", "state_id": 119, "new_parent": [126, "unload p3 t0 l2", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 126, "op": "unload p3 t0 l2"}
+{"ts":22, "act": "state_update", "state_id": 132, "state": {"var0": "2(Atom at(t0, l2))", "var1": "21(Atom fuel(t0, level28))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [126, "unload p1 t0 l2", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 126, "op": "unload p1 t0 l2"}
+{"ts":22, "act": "state_update", "state_id": 132, "g": -1, "real_g": -1}
+{"ts": 22, "act": "evaluated_states", "state_id": 132, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 132, "h_ff": 4}
+{"ts": 22, "act": "evaluated_heuristics", "count": 1}
+{"ts":22, "act": "state_update", "state_id": 133, "state": {"var0": "2(Atom at(t0, l2))", "var1": "21(Atom fuel(t0, level28))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "7(Atom in(p1, t0))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [126, "unload p0 t0 l2", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 126, "op": "unload p0 t0 l2"}
+{"ts":22, "act": "state_update", "state_id": 133, "g": -1, "real_g": -1}
+{"ts": 22, "act": "evaluated_states", "state_id": 133, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 133, "h_ff": 4}
+{"ts": 22, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 132, "g": 18, "real_g": 18}
+{"ts": 23, "act": "expanded_states", "state_id": 132}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 134, "state": {"var0": "1(Atom at(t0, l1))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [132, "drive t0 l2 l1 level25 level3 level28", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 132, "op": "drive t0 l2 l1 level25 level3 level28"}
+{"ts":23, "act": "state_update", "state_id": 134, "g": -1, "real_g": -1}
+{"ts": 23, "act": "evaluated_states", "state_id": 134, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 134, "h_ff": 5}
+{"ts": 23, "act": "evaluated_heuristics", "count": 1}
+{"ts":23, "act": "state_update", "state_id": 135, "state": {"var0": "5(Atom at(t0, l5))", "var1": "7(Atom fuel(t0, level15))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [132, "drive t0 l2 l5 level15 level13 level28", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 132, "op": "drive t0 l2 l5 level15 level13 level28"}
+{"ts":23, "act": "state_update", "state_id": 135, "g": -1, "real_g": -1}
+{"ts": 23, "act": "evaluated_states", "state_id": 135, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 135, "h_ff": 4}
+{"ts": 23, "act": "evaluated_heuristics", "count": 1}
+{"ts":23, "act": "state_update", "state_id": 136, "state": {"var0": "6(Atom at(t0, l6))", "var1": "4(Atom fuel(t0, level12))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "7(Atom in(p0, t0))"}, "new_parent": [132, "drive t0 l2 l6 level12 level16 level28", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 132, "op": "drive t0 l2 l6 level12 level16 level28"}
+{"ts":23, "act": "state_update", "state_id": 136, "g": -1, "real_g": -1}
+{"ts": 23, "act": "evaluated_states", "state_id": 136, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts": 23, "act": "evaluated_heuristics", "count": 1}
+{"ts": 23, "act": "dead_end_state", "state_id": 136}
+{"ts":23, "act": "state_update", "state_id": 127, "new_parent": [132, "unload p3 t0 l2", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 132, "op": "unload p3 t0 l2"}
+{"ts":23, "act": "state_update", "state_id": 127, "g": 17, "real_g": 17}
+{"ts":23, "act": "state_update", "state_id": 126, "new_parent": [132, "load p1 t0 l2", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 132, "op": "load p1 t0 l2"}
+{"ts":23, "act": "state_update", "state_id": 137, "state": {"var0": "2(Atom at(t0, l2))", "var1": "21(Atom fuel(t0, level28))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [132, "unload p0 t0 l2", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 132, "op": "unload p0 t0 l2"}
+{"ts":23, "act": "state_update", "state_id": 137, "g": -1, "real_g": -1}
+{"ts": 23, "act": "evaluated_states", "state_id": 137, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 137, "h_ff": 3}
+{"ts": 23, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 137, "g": 19, "real_g": 19}
+{"ts": 24, "act": "expanded_states", "state_id": 137}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 138, "state": {"var0": "1(Atom at(t0, l1))", "var1": "18(Atom fuel(t0, level25))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [137, "drive t0 l2 l1 level25 level3 level28", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 137, "op": "drive t0 l2 l1 level25 level3 level28"}
+{"ts":24, "act": "state_update", "state_id": 138, "g": -1, "real_g": -1}
+{"ts": 24, "act": "evaluated_states", "state_id": 138, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 138, "h_ff": 3}
+{"ts": 24, "act": "evaluated_heuristics", "count": 1}
+{"ts":24, "act": "state_update", "state_id": 139, "state": {"var0": "5(Atom at(t0, l5))", "var1": "7(Atom fuel(t0, level15))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [137, "drive t0 l2 l5 level15 level13 level28", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 137, "op": "drive t0 l2 l5 level15 level13 level28"}
+{"ts":24, "act": "state_update", "state_id": 139, "g": -1, "real_g": -1}
+{"ts": 24, "act": "evaluated_states", "state_id": 139, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 139, "h_ff": 2}
+{"ts": 24, "act": "evaluated_heuristics", "count": 1}
+{"ts":24, "act": "state_update", "state_id": 140, "state": {"var0": "6(Atom at(t0, l6))", "var1": "4(Atom fuel(t0, level12))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [137, "drive t0 l2 l6 level12 level16 level28", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 137, "op": "drive t0 l2 l6 level12 level16 level28"}
+{"ts":24, "act": "state_update", "state_id": 140, "g": -1, "real_g": -1}
+{"ts": 24, "act": "evaluated_states", "state_id": 140, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts": 24, "act": "evaluated_heuristics", "count": 1}
+{"ts": 24, "act": "dead_end_state", "state_id": 140}
+{"ts":24, "act": "state_update", "state_id": 141, "state": {"var0": "2(Atom at(t0, l2))", "var1": "21(Atom fuel(t0, level28))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "2(Atom at(p3, l2))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [137, "unload p3 t0 l2", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 137, "op": "unload p3 t0 l2"}
+{"ts":24, "act": "state_update", "state_id": 141, "g": -1, "real_g": -1}
+{"ts": 24, "act": "evaluated_states", "state_id": 141, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 141, "h_ff": 4}
+{"ts": 24, "act": "evaluated_heuristics", "count": 1}
+{"ts":24, "act": "state_update", "state_id": 133, "new_parent": [137, "load p1 t0 l2", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 137, "op": "load p1 t0 l2"}
+{"ts":24, "act": "state_update", "state_id": 133, "g": 18, "real_g": 18}
+{"ts":24, "act": "state_update", "state_id": 132, "new_parent": [137, "load p0 t0 l2", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 137, "op": "load p0 t0 l2"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 139, "g": 20, "real_g": 20}
+{"ts": 25, "act": "expanded_states", "state_id": 139}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 142, "state": {"var0": "0(Atom at(t0, l0))", "var1": "88(Atom fuel(t0, level9))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [139, "drive t0 l5 l0 level9 level6 level15", 1]}
+{"ts": 25, "act": "generated_states", "state_id": 139, "op": "drive t0 l5 l0 level9 level6 level15"}
+{"ts":25, "act": "state_update", "state_id": 142, "g": -1, "real_g": -1}
+{"ts": 25, "act": "evaluated_states", "state_id": 142, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 142, "h_ff": 1}
+{"ts": 25, "act": "evaluated_heuristics", "count": 1}
+{"ts":25, "act": "state_update", "state_id": 143, "state": {"var0": "2(Atom at(t0, l2))", "var1": "12(Atom fuel(t0, level2))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [139, "drive t0 l5 l2 level2 level13 level15", 1]}
+{"ts": 25, "act": "generated_states", "state_id": 139, "op": "drive t0 l5 l2 level2 level13 level15"}
+{"ts":25, "act": "state_update", "state_id": 143, "g": -1, "real_g": -1}
+{"ts": 25, "act": "evaluated_states", "state_id": 143, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts": 25, "act": "evaluated_heuristics", "count": 1}
+{"ts": 25, "act": "dead_end_state", "state_id": 143}
+{"ts":25, "act": "state_update", "state_id": 144, "state": {"var0": "4(Atom at(t0, l4))", "var1": "23(Atom fuel(t0, level3))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [139, "drive t0 l5 l4 level3 level12 level15", 1]}
+{"ts": 25, "act": "generated_states", "state_id": 139, "op": "drive t0 l5 l4 level3 level12 level15"}
+{"ts":25, "act": "state_update", "state_id": 144, "g": -1, "real_g": -1}
+{"ts": 25, "act": "evaluated_states", "state_id": 144, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts": 25, "act": "evaluated_heuristics", "count": 1}
+{"ts": 25, "act": "dead_end_state", "state_id": 144}
+{"ts":25, "act": "state_update", "state_id": 145, "state": {"var0": "5(Atom at(t0, l5))", "var1": "7(Atom fuel(t0, level15))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "5(Atom at(p3, l5))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [139, "unload p3 t0 l5", 1]}
+{"ts": 25, "act": "generated_states", "state_id": 139, "op": "unload p3 t0 l5"}
+{"ts":25, "act": "state_update", "state_id": 145, "g": -1, "real_g": -1}
+{"ts": 25, "act": "evaluated_states", "state_id": 145, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 145, "h_ff": 3}
+{"ts": 25, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 142, "g": 21, "real_g": 21}
+{"ts": 26, "act": "expanded_states", "state_id": 142}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 146, "state": {"var0": "5(Atom at(t0, l5))", "var1": "23(Atom fuel(t0, level3))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [142, "drive t0 l0 l5 level3 level6 level9", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 142, "op": "drive t0 l0 l5 level3 level6 level9"}
+{"ts":26, "act": "state_update", "state_id": 146, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 146, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"ts": 26, "act": "dead_end_state", "state_id": 146}
+{"ts":26, "act": "state_update", "state_id": 147, "state": {"var0": "0(Atom at(t0, l0))", "var1": "88(Atom fuel(t0, level9))", "var2": "7(Atom in(p6, t0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [142, "load p6 t0 l0", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 142, "op": "load p6 t0 l0"}
+{"ts":26, "act": "state_update", "state_id": 147, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 147, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 147, "h_ff": 2}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"ts":26, "act": "state_update", "state_id": 148, "state": {"var0": "0(Atom at(t0, l0))", "var1": "88(Atom fuel(t0, level9))", "var2": "0(Atom at(p6, l0))", "var3": "7(Atom in(p5, t0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [142, "load p5 t0 l0", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 142, "op": "load p5 t0 l0"}
+{"ts":26, "act": "state_update", "state_id": 148, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 148, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 148, "h_ff": 2}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"ts":26, "act": "state_update", "state_id": 149, "state": {"var0": "0(Atom at(t0, l0))", "var1": "88(Atom fuel(t0, level9))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "0(Atom at(p3, l0))", "var6": "0(Atom at(p2, l0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [142, "unload p3 t0 l0", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 142, "op": "unload p3 t0 l0"}
+{"ts":26, "act": "state_update", "state_id": 149, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 149, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 149, "h_ff": 0}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"ts":26, "act": "state_update", "state_id": 150, "state": {"var0": "0(Atom at(t0, l0))", "var1": "88(Atom fuel(t0, level9))", "var2": "0(Atom at(p6, l0))", "var3": "0(Atom at(p5, l0))", "var4": "3(Atom at(p4, l3))", "var5": "7(Atom in(p3, t0))", "var6": "7(Atom in(p2, t0))", "var7": "2(Atom at(p1, l2))", "var8": "2(Atom at(p0, l2))"}, "new_parent": [142, "load p2 t0 l0", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 142, "op": "load p2 t0 l0"}
+{"ts":26, "act": "state_update", "state_id": 150, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 150, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 150, "h_ff": 2}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 27}
+{"ts":27, "act": "state_update", "state_id": 149, "g": 22, "real_g": 22}
+{"ts": 27, "act": "expanded_states", "state_id": 149}
+{"act": "end_group"}
+{"ts": 27, "act": "plan_found", "state_ids": [0, 4, 7, 11, 18, 20, 35, 43, 44, 53, 62, 70, 78, 81, 91, 95, 119, 126, 132, 137, 139, 142, 149]}
