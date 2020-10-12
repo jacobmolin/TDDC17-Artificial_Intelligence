@@ -2,6 +2,7 @@ from random import random
 from tkinter import Tk, Frame, Button, BOTH, OptionMenu, StringVar, Text, END, PhotoImage
 from lab1.liuvacuum import LIUVacuumEnvironment, ENV_CLEAN, ENV_DIRTY, ENV_WALL
 from lab1.myvacuumagent import MyVacuumAgent
+from lab1.myvacuumagent_2 import MyVacuumAgent2
 from lab1.randomvacuumagent import RandomVacuumAgent
 from lab1.reactivevacuumagent import ReactiveVacuumAgent
 
@@ -21,6 +22,7 @@ WORLD_COLOR_HOME = "blue"
 AGENT_MYVACUUMAGENT = 1
 AGENT_RANDOM = 2
 AGENT_REACTIVE = 3
+AGENT_MYVACUUMAGENT2 = 4
 
 class Lab1:
     """
@@ -106,6 +108,7 @@ class Lab1:
             ("MyVacuumAgent", AGENT_MYVACUUMAGENT),
             ("RandomAgent", AGENT_RANDOM),
             ("ReactiveAgent", AGENT_REACTIVE),
+            ("MyVacuumAgent advanced", AGENT_MYVACUUMAGENT2),
 
             always_trigger_onselect=True
         )
@@ -466,6 +469,8 @@ class Lab1:
         selected_agent = self.agent_getter()
         if selected_agent == AGENT_MYVACUUMAGENT:
             agent = MyVacuumAgent(*self.grid_dims_getter(), self.append_log)
+        elif selected_agent == AGENT_MYVACUUMAGENT2:
+            agent = MyVacuumAgent2(*self.grid_dims_getter(), self.append_log)
         elif selected_agent == AGENT_RANDOM:
             agent = RandomVacuumAgent(*self.grid_dims_getter(), self.append_log)
         else:

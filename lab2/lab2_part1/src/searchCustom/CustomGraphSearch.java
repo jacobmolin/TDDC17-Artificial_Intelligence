@@ -40,19 +40,14 @@ public class CustomGraphSearch implements SearchObject {
 		// Path will be empty until we find the goal.
 		path = new ArrayList<SearchNode>();
 		
-		// Implement this!
-		// System.out.println("Implement CustomGraphSearch.java!");
-		
 		while (!(frontier.isEmpty())){
-			
-			
 			// Pop a leaf node
 			SearchNode currentNode = frontier.removeFirst();
 			//System.out.println(currentNode.getState());
 
 			if (p.isGoalState(currentNode.getState())) {
 				path = currentNode.getPathFromRoot();
-				return path;
+				break;
 			}
 
 			// Add node to list of explored nodes
@@ -71,6 +66,7 @@ public class CustomGraphSearch implements SearchObject {
 				}	
 			}
 		}
+
 		return path;
 
 		/* Some hints:

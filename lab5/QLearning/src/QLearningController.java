@@ -109,7 +109,11 @@ public class QLearningController extends Controller {
 			case 4: // left engine
 				leftEngine.setBursting(true);
 				break;
+<<<<<<< HEAD
+			case 5: // all engines
+=======
 			case 5: // all engines DELETE
+>>>>>>> 729d599ed6493ac5b59074bba5da5e15c5514a1d
 				leftEngine.setBursting(true);
 				rightEngine.setBursting(true);
 				middleEngine.setBursting(true);
