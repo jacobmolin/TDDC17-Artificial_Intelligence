@@ -109,11 +109,7 @@ public class QLearningController extends Controller {
 			case 4: // left engine
 				leftEngine.setBursting(true);
 				break;
-<<<<<<< HEAD
-			case 5: // all engines
-=======
 			case 5: // all engines DELETE
->>>>>>> 729d599ed6493ac5b59074bba5da5e15c5514a1d
 				leftEngine.setBursting(true);
 				rightEngine.setBursting(true);
 				middleEngine.setBursting(true);
@@ -167,7 +163,6 @@ public class QLearningController extends Controller {
 				Qtable.put(prev_stateaction, (1.0 - currAlpha) * Qtable.get(prev_stateaction)
 						+ currAlpha * (previous_reward + GAMMA_DISCOUNT_FACTOR * getMaxActionQValue(new_state)));
 				/* See top for constants and below for helper functions */
-				
 				
 				int action = selectAction(new_state); /* Make sure you understand how it selects an action */
 
