@@ -11,6 +11,8 @@
         room
         lightSwitch
         box
+        smallObject
+        grip
         shackety
     )
 
@@ -21,8 +23,11 @@
         (placed      ?b - box ?r - room)       ; the box is placed in the room.
         (wideDoor ?r1 ?r2 - room)                    ; there is a wide door connecting the rooms
         (lightsAreOn ?ls - lightSwitch)           ; the lightSwitch in the room is on
+        (objectPlaced ?o - smallObject ?r - room)
+        (gripBusy ?g - grip)
+        (gripped ?o - smallObject ?g - grip)
     )
-
+    
     (:action move
         :parameters (?s - shackety ?start ?end - room)
         ; Only move if the rooms are adjacent and Shackety is in the start room
@@ -39,6 +44,40 @@
         :precondition (and (at ?s ?r) (placed ?b ?r) (attached ?ls ?r) (not (lightsAreOn ?ls)))
         ; Turn lights on in the room
         :effect (lightsAreOn ?ls)
+    )
+
+    (:action pickupObject
+        :parameters (?s - shackety ?o - smallObject ?r - room ?g - grip ?ls - lightSwitch)
+        :precondition ( 
+            and 
+            (at ?s ?r) 
+            (lightsAreOn ?ls)
+            (attached ?ls ?r)
+            (not(gripBusy ?g)) 
+            (objectPlaced ?o ?r)
+        )
+        :effect (
+            and
+            (gripBusy ?g)
+            (gripped ?o ?g)
+            (not (objectPlaced ?o ?r))
+        )
+    )
+
+    (:action placeObject
+        :parameters (?s - shackety ?o - smallObject ?r - room ?g - grip)
+        :precondition (
+            and
+            (at ?s ?r)
+            (gripped ?o ?g)
+            (not (objectPlaced ?o ?r))
+        )
+        :effect (
+            and
+            (not (gripBusy ?g))
+            (not (gripped ?o ?g))
+            (objectPlaced ?o ?r)
+        )
     )
 
     (:action moveWithBox
